@@ -1,0 +1,43 @@
+.main {
+  /* min-height: 90vh; */
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quadrate {
+  width: 30%;
+  height: 50vh;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 1.6rem;
+}
+
+.subtitle {
+  margin: 0, 4;
+  line-height: 1.15;
+  font-size: 1.2rem;
+}
+
+.title,
+.subtitle {
+  text-align: center;
+  font-weight: bold;
+}
